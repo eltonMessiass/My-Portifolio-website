@@ -459,7 +459,9 @@ textarea{
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .projects-section .contact-me{
+        margin: 1000px;
+    }
     .projects-container{
         
         display: grid;
@@ -479,5 +481,18 @@ textarea{
         margin-top: 18px;
         
     }
-   
+
+    .skills-container{
+        width: 100%;
+        margin-bottom: 100px;
+        
+    }
+    
+    .skill{
+        width: 50%;
+    }
+
+    .skill h1{
+        font-size: 15pt;
+    }
 }

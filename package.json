@@ -1,0 +1,24 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "<!-- # Frontend Mentor - Single-page developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltonMessiass/My-Portifolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eltonMessiass/My-Portifolio-website/issues"
+  },
+  "homepage": "https://github.com/eltonMessiass/My-Portifolio-website#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "i": "^0.3.7"
+  }
+}

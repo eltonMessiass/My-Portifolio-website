@@ -1,0 +1,498 @@
+@font-face {
+    font-family: fontt;
+    src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+*{
+    
+    color: #fff;
+    margin: 0;
+    
+}
+
+body{
+    background: black;
+
+}
+
+.my-name{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    font-family: fontt;
+    text-decoration: none;
+}
+
+.my-pic{
+    width: 470px;
+    margin-top: -100px;
+}
+
+
+.presentation{
+   margin-left: 2%; 
+   margin-top: 4%;
+}
+
+.presentation h1{
+    color: #fff;
+    font-size: 80px;
+    font-family: fontt;
+    margin-bottom: 30px;
+}
+.presentation span{
+    text-decoration: underline rgb(78, 225, 160);
+}
+
+.presentation p{
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: fontt;
+}
+
+.presentation h3{
+    width: 100px;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-top: 5em;
+    border-bottom: 3px solid rgb(78, 225, 160) ;
+    
+}
+
+.presentation h3 a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.presentation h3 a:hover{
+    color: rgb(78, 225, 160);
+}
+
+
+
+
+.profile{
+    
+    width: 30%;
+    height: 70%;
+    background-color: #9797972d;
+    /* background: #9797972d; */
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+    margin-right: 50px ;
+    background-repeat: no-repeat;
+    
+}
+
+.profile .my-pic{
+    margin-left: 90px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+
+.social-medias{
+    float: right;
+    margin: 10px;
+    
+}
+.social-medias a{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.skills-container{
+    align-items: center;
+    margin: 7%;
+    display: grid;
+    justify-content: center;
+    margin-top: 9em;
+    width: 80rem;
+    grid-template-columns: auto auto auto auto;
+ 
+  
+
+    border-top: 2px solid #d9d9d9;
+}
+
+.skill{
+    width: 15em;
+    margin-top: 30px;
+    font-family: fontt;
+}
+
+.skill h1{
+    color: white;
+    margin-bottom: 15px;
+}
+.skill p{
+    color: #d9d9d9;
+}
+
+
+.projects-container{
+    font-family: fontt;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.projects-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.projects-section h1{
+    font-size: 50pt;
+    font-family: fontt;
+}
+
+ #contact-me{
+    float: right;
+    margin-top: -5em;
+    width: 110px;
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(78, 225, 160) ;
+}
+#contact-me a{
+    text-decoration: none;
+    font-family: fontt;
+    transition: 0.3s ease-in-out;
+}
+#contact-me :hover{
+    color: rgb(78, 225, 160);
+}
+
+.project{
+    height: 50%;
+    width: 30vw;
+    /* margin: 20px; */
+    margin: 10px 10px -50px 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.project:hover .code-opt h3{
+    opacity: 1;
+
+}
+
+.project p{
+    color: #d9d9d9;
+    margin-top: 10px;
+}
+
+
+
+
+.project img{
+    width: 100%;
+    transition: 0.2s ease-in;
+    position: relative;
+}
+
+ .code-opt{
+    display: flex;
+    flex-direction: column;
+    position:  relative; top:-80%;
+    left: 35%;
+
+}
+
+
+
+.code-opt h3{
+    color: red;
+    width: 130px;
+    height: 40px;
+    color: white;
+    margin:5px;
+    border-bottom:3px solid rgb(78, 225, 160);
+    opacity: 0;
+
+    -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+.code-link:hover{
+    color: rgb(78, 225, 160);
+}
+.project:hover img {
+    opacity: 0.3;
+}
+.project:hover .code-opt h3 {
+    opacity: 1;
+   
+}
+.project:hover .code-opt h3 .code-link {
+    width: 130px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.contact-area{
+    background: rgb(36, 36, 36);
+    width: 100%;
+
+}
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+    padding-top: 2rem;
+}
+.contact-container .contact-txt{
+    width: 50%;
+}
+.contact-txt h1{
+    color: white;
+    font-size: 50pt;
+    margin-bottom: 25px;
+    font-family: fontt;
+}
+.contact-txt p{
+    max-width: 50%;
+    font-size: 15pt;
+    color: #d9d9d9;
+    font-family: fontt;
+}
+
+.contact-form{
+    width: 50%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    background: rgb(36, 36, 36);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    height: 20px;
+    border-bottom: 2px solid #d9d9d9;
+    color: #d9d9d9;
+    font-size: 15pt;
+    font-family: fontt;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+
+textarea{
+
+    background: rgb(36, 36, 36);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    height: 150px;
+    border-bottom: 2px solid #d9d9d9;
+    color: #d9d9d9;
+    font-size: 15pt;
+    font-family: fontt;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+
+.contact-form button{
+    font-family: fontt;
+    color: white;
+    width: 170px;
+    background: rgb(36, 36, 36);
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid rgb(78, 225, 160);
+    font-size: 13pt;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+   
+    position: relative;
+    float: right;
+}
+
+
+
+.contact-form button:hover{
+    color: rgb(78, 225, 160);
+    
+}
+
+
+/* media queries */
+@media screen and (max-width:1200px){
+    .presentation h1{ 
+        font-size: 50px;
+        
+    }
+    .skills-container{
+     
+        width: 90%;
+        grid-template-columns: auto auto auto ;
+        position: static;
+      
+    
+    }
+    .code-opt{
+        display: flex;
+        flex-direction: column;
+        position:  relative; top:-96%;
+        left: 30%;
+    
+    }
+}
+
+@media screen and (max-width:768px){
+    .presentation h1{       
+        font-size: 30px;       
+    }
+    .presentation p{
+        color: #d9d9d9;
+        font-size: 15px;
+        font-family: fontt;
+    }
+    .profile{
+        width: 35%;
+        height: 50%;
+        
+    }
+    .skills-container{
+     
+        width: 90%;
+        grid-template-columns: auto auto ;
+        position: static;
+      
+    
+    }
+    .project{
+        height: 50%;
+        width: 90%;
+        /* margin: 20px; */
+        margin: 60px 10px -30px 10px;
+        position: relative;
+        text-align: center;
+        
+    }
+    .project h2{
+        font-size: 15pt;
+    }
+
+    .code-opt{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        top: 5%;
+        left: 1%;
+    
+    }
+    .code-opt h3{
+        opacity: 1;
+        font-size: 10pt;
+        text-decoration: none;
+    }
+    .code-opt h3 a{
+        text-decoration: none;
+        
+    }
+   
+
+    .projects-container{
+        margin-bottom: 70px;
+    }
+
+
+
+    .code-opt h3{
+        border-bottom:3px solid rgb(78, 225, 160);
+    }
+    .code-link{
+        color: rgb(78, 225, 160);
+        font-size: 15pt;
+    }
+    
+    .project:hover img {
+        opacity: 1;
+    }
+    
+   
+
+    .contact-container{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .contact-container .contact-txt{
+        width: 90%;
+        text-align: center;
+    }
+    .contact-txt p{
+        min-width: 90%;
+        font-size: 15pt;
+        color: #d9d9d9;
+        font-family: fontt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-section .contact-me{
+        margin: 1000px;
+    }
+    .projects-container{
+        
+        display: grid;
+        grid-template-columns:auto;
+        margin-bottom: 90px;
+    }
+    .first-section{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile{
+        width: 90%;
+        position: relative;
+        margin-top: 18px;
+        
+    }
+
+    .skills-container{
+        width: 100%;
+        margin-bottom: 100px;
+        
+    }
+    
+    .skill{
+        width: 50%;
+    }
+
+    .skill h1{
+        font-size: 15pt;
+    }
+}
